@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://tahla_123:talha_123@bidit-p2kqm.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken"
+}
