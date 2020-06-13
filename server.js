@@ -94,7 +94,7 @@ app.use("/api/ads", require("./routes/ad"));
 
 app.use(express.static(__dirname + '/public'));
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, '/client/build', 'index.html'));
+  res.sendFile(path.join(__dirname, './client/build', 'index.html'));
 });
 
 
